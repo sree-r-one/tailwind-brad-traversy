@@ -1,2 +1,3 @@
-# tailwind-brad-traversy
-Learning repo for Tailwind project 
+# REACT + VITE
+
+    Starter setup for React + Vite
