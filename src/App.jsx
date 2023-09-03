@@ -3,27 +3,30 @@ import React from "react";
 const App = () => {
   return (
     <div>
-      App
-      <a
-        href=""
-        className="group block max-w-xs rounded-lg bg-white p-6 shadow hover:bg-sky-500"
-      >
-        <h3 className="group-hover:text-white">Card Title</h3>
-        <p>This is the card text</p>
-      </a>
-      {/* Pseudo Classes */}
-      <ul>
-        <li className="even:bg-red-200">Item 1</li>
-        <li className="even:bg-red-200">Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-        <li>Item 6</li>
-      </ul>
-      <select name="" id="">
-        <option value="Yes">Yes</option>
-        <option value="No">No</option>
-      </select>
+      {/* Flex and Alignment  */}
+
+      {/* <div className="flex h-72 w-full items-center justify-between bg-gray-300">
+        <div className="border border-blue-400 bg-blue-100 p-10">01</div>
+        <div className="border border-blue-400 bg-blue-100 p-10">02</div>
+        <div className="border border-blue-400 bg-blue-100 p-10">03</div>
+        <div className="border border-blue-400 bg-blue-100 p-10">04</div>
+      </div> */}
+
+      <div className="flex w-full gap-4 bg-gray-300">
+        <div className="w-64 flex-initial border border-blue-400 bg-blue-100 p-10">
+          01
+        </div>
+        <div className="w-64 flex-none border border-blue-400 bg-blue-100 p-10">
+          02
+        </div>
+        <div className="w-64 flex-auto border border-blue-400 bg-blue-100  p-10">
+          03
+        </div>
+        <div className="w-64 border border-blue-400 bg-blue-100 p-10">04</div>
+        <div className="w-64 border border-blue-400 bg-blue-100 p-10">05</div>
+        <div className="w-64 border border-blue-400 bg-blue-100 p-10">06</div>
+        <div className="w-64 border border-blue-400 bg-blue-100 p-10">07</div>
+      </div>
     </div>
   );
 };
