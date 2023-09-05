@@ -3,6 +3,7 @@ import EmailSubscribe from "./components/EmailSubscribe";
 import PricingCard from "./components/PricingCard";
 import ProductModal from "./components/ProductModal";
 import ImageGallery from "./components/ImageGallery";
+import LoginModal from "./components/LoginModal";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <PricingCard />
       <ProductModal />
       <ImageGallery />
+      <LoginModal />
     </div>
   );
 };
